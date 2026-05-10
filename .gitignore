@@ -1,0 +1,36 @@
+# Variables de entorno (contraseñas, secrets, JWT keys)
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Base de datos SQLite (si usaras)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Pytest / testing
+.pytest_cache/
+htmlcov/
+.coverage
